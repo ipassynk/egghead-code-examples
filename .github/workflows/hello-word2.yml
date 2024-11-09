@@ -13,7 +13,7 @@ jobs:
      steps:
       -  uses: actions/checkout@v4
          with: 
-           repository: ipassynk/egghead-code-examples/tree/v1.0.1
+           tag: tag/1.0.1
       -  uses: ./
   
      
