@@ -11,7 +11,9 @@ jobs:
      runs-on: "ubuntu-latest"
 
      steps:
-     - uses: ipassynk/egghead-code-examples@v1.0.1
-     - uses: ./
+      -  uses: actions/checkout@v4
+         with: 
+           repository: ipassynk/egghead-code-examples@v1.0.1
+      -  uses: ./
   
      
